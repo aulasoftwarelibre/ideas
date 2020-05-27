@@ -1,6 +1,6 @@
 import * as faker from 'faker';
-import { Entity } from './Entity';
-import { Id } from './Id';
+import { Entity } from './entity';
+import { Id } from './id';
 
 describe('Entity', () => {
   const uuid = faker.random.uuid();

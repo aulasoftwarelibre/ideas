@@ -1,1 +1,1 @@
-export * from './InvalidId';
+export * from './invalid-id.exception';

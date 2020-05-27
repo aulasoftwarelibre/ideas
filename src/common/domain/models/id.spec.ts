@@ -1,7 +1,7 @@
 import * as faker from 'faker';
 import { InvalidId } from '../exceptions';
-import { Id } from './Id';
-import { ValueObject } from './ValueObject';
+import { Id } from './id';
+import { ValueObject } from './value-object';
 
 describe('Id', () => {
   it('is a value object', () => {

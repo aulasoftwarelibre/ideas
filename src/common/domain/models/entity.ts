@@ -1,4 +1,4 @@
-import { Id } from './Id';
+import { Id } from './id';
 
 export abstract class Entity {
   protected constructor(readonly id: Id) {}

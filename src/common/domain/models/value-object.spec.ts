@@ -1,4 +1,4 @@
-import { ValueObject } from './ValueObject';
+import { ValueObject } from './value-object';
 
 describe('Value object', () => {
   const value = expect.anything();

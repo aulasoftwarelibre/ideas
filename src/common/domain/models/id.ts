@@ -1,5 +1,5 @@
 import { InvalidId } from '../exceptions';
-import { ValueObject } from './ValueObject';
+import { ValueObject } from './value-object';
 
 export abstract class Id extends ValueObject<string> {
   protected constructor(uuid: string) {
